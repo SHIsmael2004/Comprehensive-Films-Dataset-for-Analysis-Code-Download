@@ -21,3 +21,27 @@ Comparative Studies: Examining patterns in various genres, nations, and years of
 Recommendation systems use votes and ratings to sugest films.
 
 This dataset offers a solid basis for data analysis, visualization, and machine learning applications in the film industry by providing a well-balanced combination of descriptive, financial, and evaluative information.
+
+
+Type of target:
+🎯 Colonnes numériques (liées au succès commercial)
+
+US_BoxOfficeUSD → prédire le box office US.
+
+Global_BoxOfficeUSD → prédire le box office mondial.
+
+Opening_Day_SalesUSD ou One_Week_SalesUSD → prédire les ventes du lancement.
+
+BudgetUSD → tu pourrais prédire le budget, mais ça n’a pas trop de sens car c’est connu avant la sortie.
+
+👉 Généralement, on veut prédire les revenus (box office, global sales).
+
+🎯 Colonnes qualitatives (liées à la réception critique)
+
+IMDBRating → prédire la note IMDb.
+
+RottenTomatoesScore → prédire le score critique.
+
+NumVotesIMDb / NumVotesRT → prédire la popularité (nombre de votes).
+
+👉 Ça peut devenir un problème de régression (prédire la note) ou classification (ex: succès = rating > 7).
